@@ -14,7 +14,7 @@ A minimal WPF (Windows Presentation Foundation) application in C# demonstrating 
 
 ## Description
 
-`HelloWpf` is a starter WPF application showcasing:
+`HelloWPF` is a starter WPF application showcasing:
 
 * A simple XAML-defined UI
 * Event handling in code-behind
