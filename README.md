@@ -31,12 +31,12 @@ A minimal WPF (Windows Presentation Foundation) application in C# demonstrating 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/HelloWpf.git
-   cd HelloWpf
+   git clone https://github.com/yourusername/HelloWPF.git
+   cd HelloWPF
    ```
 2. **Open the Solution**
 
-   * Double-click `HelloWpf.sln` or open it via **File → Open → Project/Solution** in Visual Studio.
+   * Double-click `HelloWPF.sln` or open it via **File → Open → Project/Solution** in Visual Studio.
 
 ## Building and Running
 
@@ -46,15 +46,15 @@ A minimal WPF (Windows Presentation Foundation) application in C# demonstrating 
 ## Project Structure
 
 ```
-HelloWpf/             # Solution folder
-├─ HelloWpf/          # WPF application project
+HelloWPF/             # Solution folder
+├─ HelloWPF/          # WPF application project
 │  ├─ App.xaml         # Application definition
 │  ├─ App.xaml.cs      # Application startup logic
 │  ├─ MainWindow.xaml  # Main window layout (UI)
 │  ├─ MainWindow.xaml.cs # Code-behind for MainWindow
 │  └─ ViewModels/      # (Optional) ViewModel classes for MVVM
 │     └─ MainViewModel.cs
-└─ HelloWpf.sln        # Visual Studio solution file
+└─ HelloWPF.sln        # Visual Studio solution file
 ```
 
 ## Troubleshooting
@@ -72,6 +72,6 @@ HelloWpf/             # Solution folder
 
 ## Resources
 
-* [WPF .NET Documentation](https://docs.microsoft.com/dotnet/desktop/wpf/)
+* [WPF .NET Documentation](https://docs.microsoft.com/dotnet/desktop/wPF/)
 * [MVVM Pattern Overview](https://docs.microsoft.com/azure/architecture/patterns/mvvm)
 * [Tim Corey WPF Tutorials](https://www.youtube.com/c/IAmTimCorey)
