@@ -1,6 +1,6 @@
 # HelloWPF
 
-A minimal WPF (Windows Presentation Foundation) application in C# demonstrating basic UI, code-behind, and MVVM concepts.
+A minimal WPF (Windows Presentation Foundation) application in C# demonstrating basic UI, MVVM data binding, and command handling.
 
 ## Table of Contents
 
@@ -17,8 +17,8 @@ A minimal WPF (Windows Presentation Foundation) application in C# demonstrating 
 `HelloWPF` is a starter WPF application showcasing:
 
 * A simple XAML-defined UI
-* Event handling in code-behind
-* Basic MVVM wiring (ViewModel, data binding, and commands)
+* Event handling in code-behind (initial example)
+* MVVM wiring with a ViewModel, data binding, and commands
 
 ## Prerequisites
 
@@ -41,7 +41,8 @@ A minimal WPF (Windows Presentation Foundation) application in C# demonstrating 
 ## Building and Running
 
 * In Visual Studio, press **F5** or click **Start** to build and launch the app.
-* You should see a window with a **Click Me!** button. Clicking it displays a **Hello, WPF!** message box.
+* The window shows a text box and a **Show Message** button. Enter a message and
+  click the button to display it.
 
 ## Project Structure
 
@@ -52,8 +53,9 @@ HelloWPF/             # Solution folder
 │  ├─ App.xaml.cs      # Application startup logic
 │  ├─ MainWindow.xaml  # Main window layout (UI)
 │  ├─ MainWindow.xaml.cs # Code-behind for MainWindow
-│  └─ ViewModels/      # (Optional) ViewModel classes for MVVM
-│     └─ MainViewModel.cs
+│  └─ ViewModels/      # ViewModel and command classes
+│     ├─ MainViewModel.cs
+│     └─ RelayCommand.cs
 └─ HelloWPF.sln        # Visual Studio solution file
 ```
 
